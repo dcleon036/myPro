@@ -144,7 +144,7 @@ public class MongoDBTest {
         }finally {
             stmt.close();
             resultSet.close();
-        }
+        } 
     }
 
     /**

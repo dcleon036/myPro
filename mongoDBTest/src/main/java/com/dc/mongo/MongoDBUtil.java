@@ -15,7 +15,7 @@ public class MongoDBUtil {
         MongoClient mongoClient = new MongoClient("localhost", 27017);
 
         //连接到数据库
-        MongoDatabase mongoDatabase = mongoClient.getDatabase("risk30");
+        MongoDatabase mongoDatabase =   mongoClient.getDatabase("risk30");
 
         //返回连接数据库对象
         return mongoDatabase;
